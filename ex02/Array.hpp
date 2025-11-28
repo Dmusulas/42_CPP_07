@@ -6,7 +6,7 @@
 /*   By: dmusulas <dmusulas@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/17 18:43:44 by dmusulas          #+#    #+#             */
-/*   Updated: 2025/07/17 18:49:29 by dmusulas         ###   ########.fr       */
+/*   Updated: 2025/11/28 12:47:10 by dmusulas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,7 @@ public:
 };
 
 // Include the implementation at the end
+#ifndef ARRAY_TPP
 #include "Array.tpp"
-
+#endif
 #endif

@@ -1,8 +1,8 @@
 CompileFlags:
   Add: [-std=c++98]
-
 ---
 If:
-  PathMatch: .*\.tpp$
-Diagnostics:
-  Suppress: ['*']
+  PathMatch: .*\.tpp
+
+CompileFlags:
+  Add: [-xc++-header]
