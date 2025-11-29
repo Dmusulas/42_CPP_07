@@ -6,15 +6,13 @@
 /*   By: dmusulas <dmusulas@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/17 18:24:42 by dmusulas          #+#    #+#             */
-/*   Updated: 2025/07/17 18:25:03 by dmusulas         ###   ########.fr       */
+/*   Updated: 2025/11/29 18:26:48 by dmusulas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "iter.hpp"
 #include <iostream>
 #include <string>
-
-// Test functions for different types and parameter styles
 
 // Functions that take non-const references (can modify elements)
 void increment(int &n) { n++; }

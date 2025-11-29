@@ -6,14 +6,12 @@
 /*   By: dmusulas <dmusulas@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/17 18:43:44 by dmusulas          #+#    #+#             */
-/*   Updated: 2025/11/28 12:47:10 by dmusulas         ###   ########.fr       */
+/*   Updated: 2025/11/29 18:27:05 by dmusulas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef ARRAY_HPP
 #define ARRAY_HPP
-
-#include <exception>
 
 template <typename T> class Array {
 private:

@@ -6,7 +6,7 @@
 /*   By: dmusulas <dmusulas@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/28 12:32:09 by dmusulas          #+#    #+#             */
-/*   Updated: 2025/11/28 12:32:20 by dmusulas         ###   ########.fr       */
+/*   Updated: 2025/11/29 18:28:00 by dmusulas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 #include <iostream>
 #include <string>
 
-// Helper function to print test titles
 void printTitle(const std::string &title) {
     std::cout << "\n--- " << title << " ---" << std::endl;
 }
